@@ -6,12 +6,11 @@
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
       <a-marker preset="hiro">
-        <a-obj-model
+        <a-entity
           position="0 0 0"
           scale="2 2 2"
-          src="switch-helmet.obj" 
-          mtl="switch-helmet.mtl"
-        ></a-obj-model>
+          gltf-model="cover.gltf"
+        ></a-entity>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
